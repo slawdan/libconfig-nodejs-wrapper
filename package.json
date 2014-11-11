@@ -1,6 +1,6 @@
 {
   "name": "libconf",
-  "version": "0.1.0",
+  "version": "0.1.1-0",
   "description": "A nodejs wrapper for the famous libconfig library using nodejs-ffi",
   "author": "slawdan <schludern@gmail.com>",
   "main": "./index.js",
