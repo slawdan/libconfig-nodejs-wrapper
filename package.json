@@ -1,0 +1,33 @@
+{
+	"name": "libconf",
+	"version": "0.0.1-dev",
+	"description": "A nodejs wrapper for the famous libconfig library using nodejs-ffi",
+	"author": "slawdan <schludern@gmail.com>",
+	"main": "./libconfig.js",
+	"homepage": "http://github.com/slawdan/libconfig-nodejs-wrapper",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/slawdan/libconfig-nodejs-wrapper"
+	},
+	"bugs": {
+		"url": "https://github.com/slawdan/libconfig-nodejs-wrapper/issues"
+	},
+	"keywords": [
+		"libconfig",
+		"config",
+		"conf"
+	],
+	"dependencies": {
+		"ffi": ">=1.0.0"
+	},
+	"devDependency": {
+		"coffee-script": ">=1.0.0"
+	}
+	"scripts": {
+		"prepublish": "coffee -c libconfig.coffee"
+	}
+	"engines": {
+		"node" : ">=0.10.0"
+	},
+	"license": "MIT"
+}
